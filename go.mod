@@ -10,11 +10,8 @@ replace github.com/pganalyze/pg_query_go v1.0.3 => github.com/Percona-Lab/pg_que
 
 replace golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa => github.com/percona-lab/crypto v0.0.0-20220811043533-d164de3c7f08
 
-replace github.com/ClickHouse/clickhouse-go/151 => github.com/ClickHouse/clickhouse-go v1.5.1 // clickhouse-go/v2 cannot work with 1.5.1 which we need for QAN-API
-
 require (
 	github.com/AlekSi/pointer v1.2.0
-	github.com/ClickHouse/clickhouse-go/151 v0.0.0-00010101000000-000000000000
 	github.com/ClickHouse/clickhouse-go/v2 v2.4.3
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/alecthomas/kong v0.7.1
@@ -145,7 +142,6 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resourcegraph/armresourcegraph v0.6.0
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.7.0 // indirect
 	github.com/ClickHouse/ch-go v0.50.0 // indirect
-	github.com/ClickHouse/clickhouse-go v1.5.4 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
@@ -154,7 +150,6 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/charmbracelet/harmonica v0.2.0 // indirect
-	github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58 // indirect
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/go-units v0.5.0 // indirect
