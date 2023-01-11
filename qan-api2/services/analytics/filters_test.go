@@ -197,8 +197,11 @@ func TestService_GetFilters(t *testing.T) {
 				assert.Nil(t, got, "Service.GetFilters() return not nil")
 				return
 			}
+			if got == nil {
+				got = &qanpb.FiltersReply{}
+			}
 			expectedJSON := getExpectedJSON(t, got, "../../test_data/TestService_GetFilters_"+tt.name+".json")
-			marshaler := jsonpb.Marshaler{Indent: "	"}
+			marshaler := jsonpb.Marshaler{Indent: " "}
 			gotJSON, err := marshaler.MarshalToString(got)
 			if err != nil {
 				t.Errorf("cannot marshal:%v", err)
