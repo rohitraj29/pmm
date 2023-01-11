@@ -102,6 +102,7 @@ require (
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/opentracing-contrib/go-grpc v0.0.0-20180928155321-4b5a12d3ff02 // indirect
 	github.com/philhofer/fwd v1.0.0 // indirect
@@ -144,10 +145,8 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resourcegraph/armresourcegraph v0.6.0
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.7.0 // indirect
-	github.com/ClickHouse/ch-go v0.50.0 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
-	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/armon/go-metrics v0.4.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
@@ -157,8 +156,6 @@ require (
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
-	github.com/go-faster/city v1.0.1 // indirect
-	github.com/go-faster/errors v0.6.1 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-openapi/analysis v0.21.3 // indirect
@@ -220,7 +217,6 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rs/xid v1.4.0 // indirect
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529 // indirect
-	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749 // indirect
 	github.com/shurcooL/vfsgen v0.0.0-20200824052919-0d455de96546 // indirect
